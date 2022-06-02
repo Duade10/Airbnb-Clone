@@ -5,8 +5,17 @@ name = "pypi"
 
 [packages]
 django = "==4.0.4"
+pillow = "*"
+django-countries = "*"
+django-seed = "*"
+psycopg2 = "*"
 
 [dev-packages]
+flake8 = "*"
+black = "*"
 
 [requires]
 python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
